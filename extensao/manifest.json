@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Tech Feelings",
+    "description": "Extenção para analisar sentimentos em textos.",
+    "author": "Livia Negrini, Lucas Medina, Lucas Reis, Gabriele Brito",
+    "browser_action": {
+   	 "default_title": "Tech Feelings",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
