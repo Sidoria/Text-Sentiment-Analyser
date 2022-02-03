@@ -24,6 +24,10 @@ Foi designada a você e sua equipe a tarefa de inplementar uma I.A. em seus proj
     <td>Saulo Santos</td>
     <td><a href="https://github.com/Saulomsantos"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> </a> </td>
   </tr>
+  <tr>
+    <td>Priscila Medeiro</td>
+    <td><a href="https://github.com/priscilahms"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> </a> </td>
+  </tr>
 </table>
 
 &nbsp;
@@ -50,5 +54,10 @@ Foi designada a você e sua equipe a tarefa de inplementar uma I.A. em seus proj
     <td>Lucas Medina</td>
     <td><a href="https://github.com/Lucas-M3dina"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> </a> </td>
     <td><a href="liviasnegrini2004@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a></td>
+  </tr>
+  <tr>
+    <td>Gabiele Brito</td>
+    <td><a href="https://github.com/gabrielevbrito"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> </a> </td>
+    <td><a href="gabrieleviveiros08@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a></td>
   </tr>
 </table>
