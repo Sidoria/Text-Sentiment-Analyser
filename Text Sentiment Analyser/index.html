@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tech Feelings</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Tech Feelings</h1>
+        <div class="header-text">
+            <p>Entenda o sentimento social da sua marca, produto ou serviço enquanto monitora as conversas online. A Análise de Sentimento é uma mineração contextual de texto que identifica e extrai informações subjetivas no material de origem.</p>
+        </div>
+    </header>
+    <main>
+       <button class="test-button" type="button" onclick="hideContent()">Teste Agora</button>
+    </main>
+    <div class="form-container">
+        <textarea name="" id="text-area" cols="20" rows="1" placeholder="Escreva Aqui"></textarea>
+        <button class="analyse-btn" type="button" onclick="showResult()">Analisar</button>
+    </div>
+    <div class="results">
+        <h3>Resultado :</h3>
+        <div class="result-image">
+            <img src="images/Icons/postivo.png" alt="">
+            <h4>Positivo</h4>
+            <img src="images/Icons/neutro.png" alt="">
+            <h4>Neutro</h4>
+            <img src="images/Icons/negative.png" alt="">
+            <h4>Negativo</h4>
+        </div>
+    </div>
+</body>
+
+<script>
+    function hideContent(){
+        document.querySelector('.header-text').style.display = 'none',
+        document.querySelector('.test-button').style.display = 'none',
+        document.querySelector('.form-container').style.opacity = '100%'
+    }
+    function showResult(){
+        document.querySelector('.form-container').style.display = 'none',
+        document.querySelector('.results').style.opacity = '100%'
+    }
+
+</script>
+
+</html>
