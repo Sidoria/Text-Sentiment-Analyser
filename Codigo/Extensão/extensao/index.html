@@ -1,0 +1,55 @@
+<html>
+
+<head>
+	<title>Tech Feelings</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<center>
+		<h1>
+			Tech Feelings
+		</h1>
+		<script>
+	
+			function ConsumirAPI(Texto) {
+				const url = "https://api.go: tit.ai/NLU/v1.5/Analyze";
+
+				var InputTexto = document.getElementById("IdInput").value
+				fetch(url, {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+						"authorization": "basic MjI4MC10bDhzOTA1ZzpEMkJFQXhnZzF3WHBlRDdTS2VIcDNuUnd0bVdJWXJVZ1lTL1JoQnlldDNaeQ==",
+					},
+					body: JSON.stringify({ T: Texto , S: "true" }),
+				})
+					.then((resposta) => resposta.json())
+					.then((data) => console.log(data));
+
+			}return "'Sentimento do texto:" + 
+
+
+			
+			function AnaliseTexto() {
+				<p>Sentimento do texto:</p>
+			}
+
+
+		</script>
+
+		<p>Insira o texto que deseja e aperte o botao.
+		</p>
+
+		<!--Form to show the selected text as output-->
+		<form name="testform">
+			<textarea name="selectedtext" rows="5" cols="20"></textarea>
+		</form>
+
+		<!--Button to invoke the
+		function to get the selected text-->
+		<input id="IdInput" class="botao" type="button" value="Analise" onmousedown="ConsumirAPI()">
+	</center>
+</body>
+
+</html>

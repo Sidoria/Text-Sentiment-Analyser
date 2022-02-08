@@ -1,0 +1,10 @@
+h1{
+    color: #175CAB;
+}
+
+.botao{
+   background-color: #175CAB;
+   color: white;
+   border-color: #175CAB;
+   border-radius: 3px;
+}
